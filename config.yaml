@@ -1,1 +1,14 @@
-file1: path/to/file1 # Add your own files that will be used in the pipeline
+# genome alignment parameters:
+GENOME: /path/to/genome #genome fasta to be compared
+COMPARISON_GENOME: 
+  <genome1>: path/to/genome1.fasta
+  <genome2>: path/to/genome2.fasta
+  <genome3>: path/to/genome3.fasta
+
+# filter alignments less than cutoff X bp
+MIN_ALIGNMENT_LENGTH: 10000
+MIN_QUERY_LENGTH: 50000
+
+PREFIX: <prefix>
+
+OUTDIR: /path/to/outdir
