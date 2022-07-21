@@ -1,8 +1,8 @@
 remote_theme: CarolinaPB/CarolinaPB.github.io
-url: https://carolinapb.github.io
-baseurl: /whole-genome-alignment
+#url: https://carolinapb.github.io
+#baseurl: /whole-genome-alignment
 title: Carolina
-redirect_to: https://carolinapb.github.io
+#redirect_to: https://carolinapb.github.io
 
 navbar-links:
   About Me: https://carolinapb.github.io/aboutme/
@@ -14,7 +14,7 @@ navbar-links:
     - Population variant calling: https://carolinapb.github.io/population-variant-calling/
     - Whole genome alignment: https://carolinapb.github.io/whole-genome-alignment
     
-author: Carolina Pita Barros
+#author: Carolina Pita Barros
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
